@@ -1,0 +1,42 @@
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem 1.75rem 6rem;
+    z-index: 200;
+    top: 0;
+    background-color: #fff;
+    align-items: center;
+}
+nav h3{
+    font-weight: 1000;
+    font-size: larger;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding: 0px 15px 0px 15px;
+    font-weight: bold;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.home-all{
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
