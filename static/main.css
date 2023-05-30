@@ -197,19 +197,25 @@ footer{
     justify-content: space-between;
 }
 .contact-form{
-    border: 1px solid black;
     max-width: 45rem;
     align-items: center;
     border-radius: 1.7rem;
-    height: 20rem;
+    height: auto;
     width: auto;
+    padding: 2rem;
 }
 .contact-form h3{
     text-align: center;
     font-weight: 500;
     font-size: larger;
 }
-
+.fields-div{
+    padding-bottom: 1rem;
+}
+.input{
+    border: 1px solid black;
+    width: 100%;
+}
 .contact-img img{
     height: 30rem;
     width: 30rem;
