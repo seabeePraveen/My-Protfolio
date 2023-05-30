@@ -7,6 +7,8 @@
     <title>My Protfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap">
 </head>
 <body>
     <div id="main">
@@ -14,10 +16,10 @@
             <h3>Praveen.dev</h3>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home-page">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about-page">About</a>
                 </li>
                 <li>
                     <a href="#">Projects</a>
@@ -27,7 +29,7 @@
                 </li>
             </ul>
         </nav>
-        <div class="home">
+        <div class="home" id="home-page">
             <div class="container">
                 <div class="content">
                     <div class="home-main">
@@ -35,11 +37,13 @@
                             <h1>Full Stack Web Developer</h1>
                             <p>Hi, I'm Praveen. A Passionate Web and App DeveloperHi, I'm Stefan Topalovic. A passionate Front-end React Developer based in Belgrade, Serbia. 📍</p>
                             <div class="profile-icons">
+                                <a href="https://instagra.com/praveen_nonsense"><img src="static/images/instagram_icon.png" alt=""></a>
                                 <a href="https://www.linkedin.com/in/praveen-cb/"><img src="static/images/linkedin-logo_icon.png" alt=""></a>
                                 <a href="https://github.com/seabeePraveen"><img src="static/images/github_icon.png" alt=""></a>
                             </div>
                         </div>
-                        <div class="main-img"></div>
+                        <div class="main-img" style="background-image: url(static/images/mypic.jpg);">
+                        </div>
                     </div>
                     <div class="skills-row">
                         <p>Tech Stacks</p>
@@ -80,6 +84,23 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="about-page">
+            <div class="container">
+                <div class="about-matter">
+                    <div class="about-img">
+                        <img src="static/images/aboutme_pic.jpeg" alt="">
+                    </div>
+                    <div class="about-text">
+                        <p class="about-heading">About Me</p>
+                        <p class="about-sub-heading">A dedicated Front-end Developer
+                            <br>
+                            based in Belgrade, Serbia 📍
+                        </p>
+                        <p class="describe">As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.</p>
                     </div>
                 </div>
             </div>

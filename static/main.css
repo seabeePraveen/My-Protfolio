@@ -64,7 +64,7 @@ nav ul li a{
 .main-text h1{
     color: #2d2e32;
     font-size: 4.2rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-weight: 500;
@@ -86,7 +86,6 @@ nav ul li a{
     width: 1.5rem;
 }
 .main-img{
-    background-image: url('/static/images/mypic.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,4 +136,46 @@ nav ul li a{
 }
 .logos{
     max-width: 40rem;
+}
+.about{
+    padding: 3rem 0rem 7rem 0rem;
+}
+.about-img{
+    align-items: center;
+}
+.about-img img{
+    border-radius: 1.7rem;
+    height: 30rem;
+    width: 30rem;
+}
+.about-matter{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding-left: .5rem;
+}
+.about-text{
+    max-width: 37rem;
+}
+.about-heading{
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.about-sub-heading{
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.about-text .describe{
+    color: #767676;
+    font-family: Mulish,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
 }
