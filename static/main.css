@@ -62,7 +62,7 @@ nav ul li a{
     position: relative;
 }
 .main-img{
-    background-image: url('/static/mypic.jpg');
+    background-image: url('/static/images/mypic.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,6 @@ nav ul li a{
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     height: 20rem;
     position: relative;
-    transition: all 1s ease-in-out;
     width: 20rem;
 }
 .skills-row{
@@ -110,4 +109,7 @@ nav ul li a{
 .skills-row ul li img{
     height: 1.5rem;
     width: 1.5rem;
+}
+.logos{
+    max-width: 40rem;
 }
