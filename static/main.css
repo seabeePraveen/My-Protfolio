@@ -138,7 +138,7 @@ nav ul li a{
     max-width: 40rem;
 }
 .about{
-    padding: 3rem 0rem 7rem 0rem;
+    padding: 3rem 5rem 7rem 5rem;
 }
 .about-img{
     align-items: center;
@@ -178,4 +178,9 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.5;
+}
+footer{
+    background-color: #2d2e32;
+    padding: 5rem 0;
+    width: 100%;
 }
