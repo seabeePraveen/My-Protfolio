@@ -81,7 +81,6 @@ nav ul li a{
     color: #767676;
     display: flex;
     font-size: 1.2rem;
-    left: 0;
     position: absolute;
 }
 .skills-row p {
@@ -89,8 +88,9 @@ nav ul li a{
     color: #2d2e32;
     font-family: Mulish,sans-serif;
     font-weight: 600;
-    margin-right: 7rem;
+    margin-right: 5rem;
     padding-right: 2rem;
+    font-size: large;
 }
 .skills-row ul{
     display: flex;
