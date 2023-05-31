@@ -201,6 +201,10 @@ footer{
     max-width: 107rem;
     padding: 0 6rem;
 }
+.container-new p{
+    text-align: center;
+    color: red;
+}
 .container-new2{
     margin: 0 auto;
     max-width: 107rem;
