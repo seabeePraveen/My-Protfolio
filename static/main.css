@@ -202,6 +202,7 @@ footer{
     padding: 0 6rem;
 }
 .contact-matter{
+    padding-top: 1rem;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -261,4 +262,26 @@ footer{
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding:3rem;
+    background-color: #fff;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.item img{
+    height: 7.5rem;
+    border-radius: 5px;
+}
+.project-detail{
+    padding-top: 1rem;
 }
