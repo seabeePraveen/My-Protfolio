@@ -172,8 +172,8 @@ nav ul li a{
     margin-bottom: 2rem;
 }
 .about-laptop-icon{
-    height: 1.8rem;
-    width: 1.8rem;
+    height: 1.9rem;
+    width: 1.9rem;
     display: inline;
 }
 .about-text .describe{
@@ -184,7 +184,7 @@ nav ul li a{
     line-height: 1.5;
 }
 .about-button{
-    padding-top: 1rem;
+    padding-top: 1.2rem;
 }
 .about-button a{
     border-radius: .3rem;
@@ -342,4 +342,14 @@ footer{
 }
 .eye-icon{
     padding-top: .1rem;
+}
+.connecttitle{
+    font-size: 130%;
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+}
+footer .profile-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

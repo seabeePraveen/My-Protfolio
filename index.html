@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Protfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
+    <link rel="icon" href="static/images/pic5.jpg">
     <link rel="stylesheet" href="static/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat%3Ai%2Cbi%2C700%2C600%7CRoboto%3Ai%2Cbi%2C700%2C400&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap">
 </head>
 <body>
@@ -218,7 +221,7 @@
                 <div class="contact-matter">
                     <div class="contact-form">
                         <p></p>
-                        <form action="mailto:cbsrirangapraveen.2004@gmail.com?subject=Contact Me from Protfolio" enctype="text/plain" method="POST" onsubmit="getReplyForContactSubmit()">
+                        <form action="mailto:cbsrirangapraveen.2004@gmail.com?subject=Contact Me from Protfolio" enctype="text/plain" method="POST" onsubmit="getReplyForContactSubmit()" id="myForm">
                             <div class="fields-div"><input type="text" name="Name" placeholder="Your name" class="input" id="name" required></div>
                             <div class="fields-div"><input type="email" name="Email" placeholder="Your email" class="input" required id="email"></div>
                             <div class="fields-div"><input type="text" name="Mobile-No." placeholder="Your mobile number" class="input"></div>
@@ -244,11 +247,22 @@
                 </div>
             </div>
         </div>
-        <!-- <footer>
+        <footer>
             <div class="container">
-
+                <p align="center" class="connecttitle">Let's stay in connect</p>
+                <p align="center">
+                    <span style="font-family:'Caveat'; font-weight:600; font-size: xx-large; vertical-align: baseline;color: white;">Praveen C B</span>
+                </p>
+                <p align="center" style="font-family: 'Courier New'; font-size:small;color: whitesmoke;">cbsrirangapraveen.2004@gmail.com | u21cs098@coed.svnit.ac.in  </p>
+                <p align="center" style="font-family: 'Courier New'; font-size:small;color: whitesmoke;">Phone :&nbsp;+91&nbsp;7013313866</p>
+                <div class="profile-icons">
+                    <a href="" target="_blank"><img src="static/images/internet-color_icon.png" alt=""></a>
+                    <a href="mailto:cbsrirangapraveen.2004@gmail.com"><img src="static/images/gmail-color_icon.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/praveen-cb/" target="_blank"><img src="static/images/linkedin-color_icon.png" alt=""></a>
+                    <a href="https://github.com/seabeePraveen" target="_blank"><img src="static/images/github_icon.png" alt=""></a>
+                    <a href="https://instagram.com/praveen_nonsense" target="_blank"><img src="static/images/instagram-color_icon.png" alt=""></a>
+                </div>
             </div>
-        </footer> -->
-        <script src="main.js"></script>
+        </footer>
 </body>
 </html>
