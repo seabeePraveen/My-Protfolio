@@ -261,6 +261,12 @@ footer{
     width: 30rem;
     border-radius: 20%;
 }
+.contact-bottom{
+    color: #147efb;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 .projects{
     padding: 5rem 0 7rem 0;
     display: flex;
