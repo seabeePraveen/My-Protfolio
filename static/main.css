@@ -201,7 +201,7 @@ footer{
     max-width: 107rem;
     padding: 0 6rem;
 }
-.container-new p{
+#submit-response{
     text-align: center;
     color: red;
 }
