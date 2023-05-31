@@ -178,6 +178,16 @@ nav ul li a{
     font-weight: 500;
     line-height: 1.5;
 }
+.about-button{
+    padding-top: 0.6rem;
+}
+.about-button a{
+    border-radius: .3rem;
+    color: white;
+    background-color: #147efb;
+    align-items: center;
+    padding: .3rem .5rem .3rem .5rem;
+}
 footer{
     background-color: #2d2e32;
     padding: 5rem 0;
@@ -220,4 +230,15 @@ footer{
     height: 30rem;
     width: 30rem;
     border-radius: 20%;
+}
+.projects{
+    padding: 3rem 5% 7rem 12%;
+}
+.container-new h3{
+    text-align: center;
+    color: #147efb;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
