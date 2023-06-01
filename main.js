@@ -1,18 +1,14 @@
-function getReplyForContactSubmit(event){
-    event.preventDefault();
+console.log("hello");
 
-    var input1 = document.getElementById("name").value;
-    var input2 = document.getElementById("email").value;
-    var input3 = document.getElementById("message").value;
-    console.log("first");
+const navicon = document.getElementById('menu-bar-nav');
 
-    if(input1!="" && input2!="" && input3!=""){
-        var element = document.getElementById("submit-response");
-        element.textContent = "Thanks for contacing me! I will reply as soon as possible";
-        console.log("done");
-    }
+navicon.addEventListener('click',function() {
+    const navitems = document.getElementById('mobile-menu-div');
+    navitems.classList.remove('closed-menu');
+})
 
-}
-
-const form = document.querySelector('#myForm');
-form.addEventListener('submit',getReplyForContactSubmit);
+const wrongicon = document.getElementById('wrong-mark');
+wrongicon.addEventListener('click',function(){
+    const navitems = document.getElementById('mobile-menu-div');
+    navitems.classList.add('closed-menu');
+});

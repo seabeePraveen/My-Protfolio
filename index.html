@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Protfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="main.js"></script>
     <link rel="icon" href="static/images/pic5.jpg">
     <link rel="stylesheet" href="static/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
@@ -30,8 +29,30 @@
                 <li>
                     <a href="#contact-page">Contact</a>
                 </li>
+                <li>
+                    <img src="static/images/menu_icon.png" alt="" class="mobile-menu-size mobile-menu" id="menu-bar-nav">
+                </li>
             </ul>
         </nav>
+        <div class="mobile-nav-items closed-menu" id="mobile-menu-div">
+            <span>
+                <img src="static/images/wrong_icon.png" alt="" id="wrong-mark">
+            </span>
+            <ul>
+                <li>
+                    <a href="#home-page">Home</a>
+                </li>
+                <li>
+                    <a href="#about-page">About</a>
+                </li>
+                <li>
+                    <a href="#projects-page">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-page">Contact</a>
+                </li>
+            </ul>
+        </div>
         <div class="home" id="home-page">
             <div class="container">
                 <div class="content">
@@ -264,5 +285,6 @@
                 </div>
             </div>
         </footer>
+        <script src="main.js"></script>
 </body>
 </html>
