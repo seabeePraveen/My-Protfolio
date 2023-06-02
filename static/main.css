@@ -501,3 +501,23 @@ footer .profile-icons{
         justify-content: center;
     }
 }
+@media(max-width:991px){
+    .projects-list{
+        flex-direction: column;
+    }
+}
+@media(max-width:545px){
+    .project-buttons a img{
+        height: 1rem;
+        width: 1rem;
+    }
+}
+@media(max-width:540px){
+    .project-buttons{
+        flex-direction: column;
+        gap: 0rem 0;
+    }
+    .project-buttons a{
+        padding: .5rem 0;
+    }
+}
