@@ -456,11 +456,11 @@ footer .profile-icons{
 @media(max-width:900px){
     .home-main{
         flex-direction: column-reverse;
-        gap: 5rem;
+        gap: 4.5rem;
     }
     .home{
         height: auto;
-        padding: 27rem 0 9rem 0;
+        padding: 25rem 0 9rem 0;
         margin: 0 auto;
         right: 0;
     }
@@ -468,8 +468,8 @@ footer .profile-icons{
         flex-direction: column;
     }
     .main-img{
-        height: 19rem;
-        width: 38%;
+        height: 17rem;
+        width: 35%;
     }
     .main-text h1{
         text-align: center;
@@ -502,15 +502,9 @@ footer .profile-icons{
         justify-content: center;
     }
 }
-@media(max-width:775px){
-    .main-img{
-        width: 40%;
-    }
-}
-@media(max-width:730px){
-    .main-img{
-        height: 20rem;
-        width: 18rem;
+@media(max-width:991px){
+    .projects-list{
+        flex-direction: column;
     }
 }
 @media(max-width:800px){
@@ -518,14 +512,31 @@ footer .profile-icons{
         font-size: 3rem;
     }
 }
-@media(max-width:991px){
-    .projects-list{
-        flex-direction: column;
+@media(max-width:775px){
+    .main-img{
+        width: 35%;
+    }
+    .home-main{
+        gap: 4.2rem;
+    }
+}
+@media(max-width:730px){
+    .main-img{
+        height: 17rem;
+        width: 15rem;
+    }
+    .main-text h1{
+        font-size: 2.8rem;
     }
 }
 @media(max-width:692px){
     .main-text p{
         padding: 0 5rem;
+    }
+}
+@media(max-width:570px){
+    .main-text h1{
+        font-size: 2.5rem;
     }
 }
 @media(max-width:545px){
@@ -542,4 +553,33 @@ footer .profile-icons{
     .project-buttons a{
         padding: .5rem 0;
     }
+}
+@media(max-width:500px){
+    .main-text h1{
+        font-size: 2.4rem;
+    }
+    .main-text p{
+        padding: 0 3rem;
+    }
+}
+@media(max-width:420px){
+    nav{
+        padding: 1.5rem 2.6rem 1.75rem 5.5rem;
+    }
+}
+@media(max-width:417px){
+    .main-text h1{
+        font-size: 2.2rem;
+    }
+    .main-text p{
+        padding: 0 2rem;
+    }
+}
+@media(max-width:410px){
+    nav{
+        padding: 1.5rem 2.4rem 1.75rem 3rem;
+    }
+}
+@media(max-width:382px){
+
 }
