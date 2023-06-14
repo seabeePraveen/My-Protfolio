@@ -606,6 +606,16 @@ footer .profile-icons{
     }
     .project-buttons a{
         padding: .5rem 0;
+        font-size: 0.8rem;
+    }
+    .project-detail p{
+        font-size: 0.8rem;
+    }
+    .item img{
+        height: 8rem;
+    }
+    .item{
+        padding: 3rem 2.5rem 0.5rem 2.5rem;
     }
 }
 @media(max-width:500px){
@@ -617,6 +627,17 @@ footer .profile-icons{
     }
     .about{
         padding: 5rem 2rem 6rem 2rem;
+    }
+    .item img{
+        height: 7rem;
+    }
+}
+@media(max-width:440px){
+    .item img{
+        height: 7rem;
+    }
+    .container-new2{
+        padding: 0 0.5rem;
     }
 }
 @media(max-width:420px){
