@@ -403,9 +403,20 @@ footer .profile-icons{
     align-items: center;
     justify-content: center;
 }
+@media(max-width:1300px){
+    .about-matter{
+        gap: 1rem;
+    }
+    .about{
+        padding: 5rem 3.5rem 6rem 3.5rem;
+    }
+}
 @media(max-width:1170px){
     .main-text h1{
         font-size: 3.3rem;
+    }
+    .container-new{
+        padding: 0 4.2rem 0 3.5rem;
     }
 }
 @media(max-width:1130px){
@@ -413,9 +424,21 @@ footer .profile-icons{
         font-size: 3rem;
     }
 }
+@media(max-width:1100px){
+    .container-new{
+        padding: 0 3rem 0 2.5rem;
+    }
+}
 @media(max-width:1076px){
     .main-text h1{
         font-size: 3rem;
+    }
+    .about-img img{
+        height: 27rem;
+        width: 32rem;
+    }
+    .container-new{
+        padding: 0 2.5rem 0 2rem;
     }
 }
 @media(max-width: 1050px){
@@ -428,6 +451,9 @@ footer .profile-icons{
     .main-text h1{
         font-size: 3rem;
     }
+    .container-new{
+        padding: 0 2rem 0 2rem;
+    }
 }
 @media(max-width:1045px){
     .main-text h1{
@@ -437,6 +463,9 @@ footer .profile-icons{
         height: 18rem;
         width: 60%;
     }
+    .container-new{
+        padding: 0 1.7rem 0 1.7rem;
+    }
 }
 @media(max-width:1023.9px){
     .container{
@@ -445,6 +474,19 @@ footer .profile-icons{
     .main-img{
         height: 18rem;
         width: 50%;
+    }
+}
+@media(max-width:991px){
+    .projects-list{
+        flex-direction: column;
+    }
+}
+@media(max-width:950px){
+    .container-new{
+        padding: 0 1.2rem 0 1.5rem;
+    }
+    .about{
+        padding: 5rem 3rem 6rem 2.5rem
     }
 }
 @media(max-width:930px){
@@ -483,6 +525,8 @@ footer .profile-icons{
     .skills-row{
         position: relative;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .profile-icons{
         justify-content: center;
@@ -501,10 +545,20 @@ footer .profile-icons{
         padding-bottom: 7rem;
         justify-content: center;
     }
-}
-@media(max-width:991px){
-    .projects-list{
+    .about-matter{
+        display: flex;
         flex-direction: column;
+    }
+    .about-img img{
+        height: 23rem;
+        width: 22rem;
+    }
+    .skills-row p{
+        margin-right: 0;
+    }
+    .skills-row ul{
+        align-items: center;
+        justify-content: center;
     }
 }
 @media(max-width:800px){
@@ -561,6 +615,9 @@ footer .profile-icons{
     .main-text p{
         padding: 0 3rem;
     }
+    .about{
+        padding: 5rem 2rem 6rem 2rem;
+    }
 }
 @media(max-width:420px){
     nav{
@@ -574,10 +631,20 @@ footer .profile-icons{
     .main-text p{
         padding: 0 2rem;
     }
+    .about-sub-heading{
+        font-size: 1.7rem;
+    }
+    .about-img img{
+        height: 20rem;
+        width: 20rem;
+    }
 }
 @media(max-width:410px){
     nav{
         padding: 1.5rem 2.4rem 1.75rem 3rem;
+    }
+    .container-new {
+        padding: 0 0rem 0 0rem;
     }
 }
 @media(max-width:382px){
