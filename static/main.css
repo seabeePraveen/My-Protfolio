@@ -46,7 +46,7 @@ nav ul li a{
     align-items: center;
     background-color: #fff;
     display: flex;
-    height: 100vh;
+    height: 100%;
     justify-content: center;
     left: 0;
     position: fixed;
@@ -715,5 +715,22 @@ footer .profile-icons{
     }
 }
 @media(max-width:382px){
-
+    nav{
+        padding: 1.5rem 2rem 1.75rem 2rem;
+    }
+}
+@media(max-width:345px){
+    nav{
+        padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    }
+}
+@media(max-width:330px){
+    nav{
+        padding: 1.5rem 1rem 1.75rem 1rem;
+    }
+}
+@media(max-width:310px){
+    nav h3{
+        font-size: medium;
+    }
 }
